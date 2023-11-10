@@ -10,29 +10,38 @@
     justify-content: center
 }
 
+.img-col:hover img {
+    transform: scale(1.1);
+}
+
 .moodie-img {
     max-width: 80%;
     height: auto;
+    transition: 0.2s all ease-in-out;
 }
 
 .tech-blog-img {
     max-width: 80%;
     height: auto;
+    transition: 0.2s all ease-in-out;
 }
 
 .weather-dashboard-img {
     max-width: 80%;
     height: auto;
+    transition: 0.2s all ease-in-out;
 }
 
 .note-taker-img {
     max-width: 80%;
     height: auto;
+    transition: 0.2s all ease-in-out;
 }
 
 .code-quiz-img {
     max-width: 80%;
     height: auto;
+    transition: 0.2s all ease-in-out;
 }
 
 
