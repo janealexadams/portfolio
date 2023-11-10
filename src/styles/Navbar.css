@@ -1,0 +1,12 @@
+#about-me:hover, #projects:hover, #contact:hover, #resume:hover{
+    color: rgb(0, 0, 0)
+}
+
+#name {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#navbar {
+    float: right;
+}

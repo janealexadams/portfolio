@@ -6,20 +6,23 @@ import resume from '../assets/resume.pdf';
 
 function Navbar() {
   return (
-    <Nav className="justify-content-end" activeKey="/home">
+    <section className="header-section">
+      <h1 id="name">jane adams</h1>
+    <Nav id="navbar">
     <Nav.Item>
-      <Nav.Link eventKey="link-1" >about me</Nav.Link>
+      <Nav.Link id="about-me" eventKey="link-1" href="#about-me">about me</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="link-2">portfolio</Nav.Link>
+      <Nav.Link id="projects" eventKey="link-2" href="#projects">portfolio</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="link-3">contact</Nav.Link>
+      <Nav.Link id="contact" eventKey="link-3" href="#contact" >contact</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-    <Nav.Link eventKey="link-4" href={resume} target="_blank">resume</Nav.Link>
+    <Nav.Link id="resume" eventKey="link-4" href={resume} target="_blank">resume</Nav.Link>
     </Nav.Item>
   </Nav>
+    </section>
   );
 }
 

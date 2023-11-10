@@ -3,10 +3,15 @@
     height: auto;
 }
 
-.about-me {
-    text-align: justify;
+.header {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.header {
-    margin-top: 50px;
+
+.name {
+    float: left;
 }
+

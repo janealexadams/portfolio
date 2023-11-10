@@ -1,30 +1,40 @@
 .projects {
-    margin-top: 100px;
+    margin-top: 350px;
+    margin-bottom: 50px;
 }
 
-.codeMingle {
+.moodie, .tech-blog, .weather-dashboard, .code-quiz, .note-taker {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.moodie-img {
     max-width: 80%;
     height: auto;
 }
 
-.moodie {
+.tech-blog-img {
     max-width: 80%;
     height: auto;
 }
 
-.weather-dashboard {
+.weather-dashboard-img {
     max-width: 80%;
     height: auto;
 }
 
-.note-taker {
+.note-taker-img {
     max-width: 80%;
     height: auto;
 }
 
-.code-quiz {
+.code-quiz-img {
     max-width: 80%;
     height: auto;
 }
+
+
 
 /* hover over image https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity */
