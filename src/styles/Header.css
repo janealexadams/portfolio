@@ -10,8 +10,12 @@
     justify-content: center;
 }
 
-
 .name {
     float: left;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
 }
 

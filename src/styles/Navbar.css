@@ -1,12 +1,20 @@
-#about-me:hover, #projects:hover, #contact:hover, #resume:hover{
-    color: rgb(0, 0, 0)
+#about-me-link:hover, #projects-link:hover, #contact-link:hover, #resume-link:hover{
+    /* color: #D17979; */
+    font-weight: bold;
+    color: black
 }
 
 #name {
     display: inline-block;
     margin-left: 20px;
+    font-size: 30px;
 }
 
 #navbar {
     float: right;
+    color: black;
+}
+
+.first, .second, .third, .fourth {
+    color: black;
 }

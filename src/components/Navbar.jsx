@@ -10,16 +10,16 @@ function Navbar() {
       <h1 id="name">jane adams</h1>
     <Nav id="navbar">
     <Nav.Item>
-      <Nav.Link id="about-me" eventKey="link-1" href="#about-me">about me</Nav.Link>
+      <Nav.Link className="first" id="about-me-link" eventKey="link-1" href="#about-me">about me</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link id="projects" eventKey="link-2" href="#projects">portfolio</Nav.Link>
+      <Nav.Link className="second" id="projects-link" eventKey="link-2" href="#projects">portfolio</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link id="contact" eventKey="link-3" href="#contact" >contact</Nav.Link>
+      <Nav.Link className="third" id="contact-link" eventKey="link-3" href="#contact" >contact</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-    <Nav.Link id="resume" eventKey="link-4" href={resume} target="_blank">resume</Nav.Link>
+    <Nav.Link className="fourth" id="resume-link" eventKey="link-4" href={resume} target="_blank">resume</Nav.Link>
     </Nav.Item>
   </Nav>
     </section>

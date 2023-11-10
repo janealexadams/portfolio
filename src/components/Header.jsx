@@ -12,7 +12,8 @@ function Header() {
             <Container className="header">
                 <Row className="header text-center">
                     <Col xs={6} md={6}>
-                        <p className="about-me">hello, i’m jane! i’m a full stack web developer based in los angeles, ca.</p>
+                        <p className="title">hello, i’m jane!</p>
+                        <p classname="blurb">i’m a full-stack web developer based in los angeles, ca. i have a passion for all things technology and design, from software engineering to ui/ux.</p>
                     </Col>
                     <Col xs={6} md={6}>
                         <Image className="portrait" src={portrait} alt="self portrait" roundedCircle />

@@ -74,7 +74,8 @@ function Contact() {
         </Row>
         <Form.Group className="mb-3 w-50 p-3" controlId="formGridAddress1">
             <Form.Label>message</Form.Label>
-            <Form.Control  
+            <Form.Control 
+              as="textarea" 
               value={message}
               name="message"
               onChange={handleInputChange}
@@ -92,9 +93,5 @@ function Contact() {
 }
 
 export default Contact;
-
-
-
-
 
 
