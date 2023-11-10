@@ -17,7 +17,7 @@ function Contact() {
 
             <Form.Group as={Col} controlId="formGridPassword">
             <Form.Label>email</Form.Label>
-            <Form.Control type="password" placeholder="enter password" />
+            <Form.Control type="password" placeholder="enter email" />
             </Form.Group>
         </Row>
         <Form.Group className="mb-3" controlId="formGridAddress1">

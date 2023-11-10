@@ -13,11 +13,10 @@ function Header() {
             <Container>
                 <Row>
                 <Col xs={6} md={6}>
-                <p className="about-me">hellloooo this will be the about me section with my photo to the right :p</p>
+                <p className="about-me">hello, i’m jane! i’m a full stack web developer based in los angeles, ca</p>
                 </Col>
                 <Col xs={6} md={6}>
                 <Image className="portrait" src={portrait} alt="self portrait" roundedCircle />
-                {/* <Image src="portrait.png/100px250" roundedCircle /> */}
                 </Col>
                 </Row>
             </Container>

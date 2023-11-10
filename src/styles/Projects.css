@@ -2,4 +2,29 @@
     margin-top: 100px;
 }
 
+.codeMingle {
+    max-width: 80%;
+    height: auto;
+}
+
+.moodie {
+    max-width: 80%;
+    height: auto;
+}
+
+.weather-dashboard {
+    max-width: 80%;
+    height: auto;
+}
+
+.note-taker {
+    max-width: 80%;
+    height: auto;
+}
+
+.code-quiz {
+    max-width: 80%;
+    height: auto;
+}
+
 /* hover over image https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity */
