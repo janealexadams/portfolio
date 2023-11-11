@@ -21,7 +21,7 @@ The code meets the below Acceptance Criteria:
 
 ## Usage
 
-Deployed website is here: 
+Deployed website is here: https://peppy-fox-f46e1d.netlify.app
 
 Website screenshot below. 
 ![Portfolio](./src/assets/portfolio-screenshot.png)
