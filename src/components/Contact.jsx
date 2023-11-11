@@ -1,13 +1,13 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-import '../styles/contact.css';
 import { useState } from 'react';
+import '../styles/contact.css';
 
-// Here we import a helper function that will check if the email is valid
+// Importing a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
-
 
 function Contact() {
   const [name, setName] = useState('');
@@ -33,7 +33,7 @@ function Contact() {
     e.preventDefault();
 
 
-      // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+      // First we check to see if the email is not valid. If so we set an error message to be displayed on the page.
       if (!validateEmail(email)) {
         setErrorMessage('Email is invalid');
         // We want to exit out of this code block if something is wrong so that the user can correct it
@@ -49,10 +49,10 @@ function Contact() {
   return (
     <section>
         <h1 id="contact" className="contact text-center">contact me ~</h1>
-        <div className="form">
+        <div className="form d-flex justify-content-center">
         <Form onSubmit={handleFormSubmit}>
           <div> 
-          <Row className="mb-3 w-50 p-3">
+          <Row className="mb-3 w-100 p-3">
             <Form.Group as={Col} controlId="formGridEmail">
             <Form.Label>name</Form.Label>
             <Form.Control 
@@ -73,7 +73,7 @@ function Contact() {
               placeholder="email"/>
             </Form.Group>
         </Row>
-        <Form.Group className="mb-3 w-50 p-3" controlId="formGridAddress1">
+        <Form.Group className="mb-3 w-100 p-3" controlId="formGridAddress1">
             <Form.Label>message</Form.Label>
             <Form.Control 
               as="textarea" 

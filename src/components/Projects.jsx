@@ -1,14 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 import moodie from '../assets/moodie.png';
 import weatherDashboard from '../assets/weather-dashboard.png';
 import noteTaker from '../assets/note-taker.png';
 import codeQuiz from '../assets/code-quiz.png';
 import techBlog from '../assets/tech-blog.png';
-import Button from 'react-bootstrap/Button';
 import '../styles/Projects.css';
 
 function Projects() {

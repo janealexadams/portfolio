@@ -1,8 +1,7 @@
-import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/Navbar.css';
+import Nav from 'react-bootstrap/Nav';
 import resume from '../assets/resume.pdf';
-
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (

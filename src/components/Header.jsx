@@ -1,11 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import portrait from '../assets/portrait.png';
 import '../styles/Header.css';
 
+// Header with About Me section
 function Header() {
     return (
         <section id="about-me">

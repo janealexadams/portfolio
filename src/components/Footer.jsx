@@ -1,9 +1,9 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import GitHub from '../assets/GitHub-Logo.png'
 import LinkedIn from '../assets/LinkedIn-Logo.png'
 import '../styles/Footer.css';
 
+// Footer with GitHub and LinkedIn links
 function Footer() {
     return (
         <section className="footer">
