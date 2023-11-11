@@ -1,6 +1,7 @@
 .projects {
-    margin-top: 350px;
+    margin-top: 275px;
     margin-bottom: 50px;
+    font-size: 30px;
 }
 
 .moodie, .tech-blog, .weather-dashboard, .code-quiz, .note-taker {
@@ -44,6 +45,14 @@
     transition: 0.2s all ease-in-out;
 }
 
+#project-button {
+    background-color: rgb(0, 0, 0);
+    color: #F5F5EF;;
+}
 
+#project-button:hover {
+    font-weight: bold;
+    background-color: #F5F5EF;
+    color: black;
+}
 
-/* hover over image https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity */

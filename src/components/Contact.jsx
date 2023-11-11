@@ -48,10 +48,11 @@ function Contact() {
 
   return (
     <section>
-        <h1 id="contact" className="contact text-center">contact me</h1>
+        <h1 id="contact" className="contact text-center">contact me ~</h1>
         <div className="form">
         <Form onSubmit={handleFormSubmit}>
-        <Row className="mb-3 w-50 p-3">
+          <div> 
+          <Row className="mb-3 w-50 p-3">
             <Form.Group as={Col} controlId="formGridEmail">
             <Form.Label>name</Form.Label>
             <Form.Control 
@@ -83,9 +84,10 @@ function Contact() {
               placeholder="message"/>
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="outline-light" id="contact-button" type="submit">
             get in touch
         </Button>
+          </div>
     </Form>
         </div>
     </section>
