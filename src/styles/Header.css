@@ -4,10 +4,15 @@
 }
 
 .header {
-    margin-top: 125px;
+    margin-top: 215px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.row {
+  align-items: center;
+  justify-content: center;
 }
 
 .name {
@@ -85,3 +90,15 @@
     }
   }
   
+@media only screen and (max-width: 480px) {
+  .header {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  .img-col {
+    padding: 0px !important;
+  }
+}
