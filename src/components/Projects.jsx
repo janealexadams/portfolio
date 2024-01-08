@@ -28,7 +28,7 @@ function Projects() {
       <div id="projects" className="text-center">
         <Container>
           {/* TinyWear */}
-          <Row className="tinywear">
+          <Row className="tinywear colu">
             <Col className="img-col" xs={6} md={6}>
               <Image className="tinywear-img" src={Tinywear} onMouseOver={e => e.currentTarget.src = TinywearGif} onMouseOut={e => e.currentTarget.src = Tinywear} alt="Tinywear" rounded/>
             </Col>
@@ -40,7 +40,7 @@ function Projects() {
             </Col>
           </Row>
           {/* Tech Blog */}
-          <Row className="tech-blog">
+          <Row className="tech-blog colu">
             <Col xs={6} md={6}>
               <p className="desc title">Tech Blog</p>
               <p className="desc"><b>Project Summary: </b>This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developer's posts. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.</p>
@@ -52,7 +52,7 @@ function Projects() {
             </Col>
           </Row>
           {/* Moodie */}
-          <Row className="moodie">
+          <Row className="moodie colu">
             <Col className="img-col" xs={6} md={6}>
               <Image className="moodie-img " src={moodie} onMouseOver={e => e.currentTarget.src = moodieGif} onMouseOut={e => e.currentTarget.src = moodie} alt="Moodie" rounded />
             </Col>
@@ -64,7 +64,7 @@ function Projects() {
             </Col>
           </Row>
           {/* E-comm Backend */}
-          <Row className="ecomm-backend">
+          <Row className="ecomm-backend colu">
             <Col xs={6} md={6}>
               <p className="desc title">E-Commerce Backend</p>
               <p className="desc"><b>Project Summary: </b>This project is a built out backend for an e-commerce site. Using a working Express.js API, it's configured to use Sequelize to interact with a MySQL2 database. Insomnia Core is used to retrieve routes for categories, products, and tags displayed in a formatted JSON.</p>
@@ -76,7 +76,7 @@ function Projects() {
             </Col>
           </Row>
           {/* Weather Dashboard */}
-          <Row className="weather-dashboard">
+          <Row className="weather-dashboard colu">
             <Col className="img-col" xs={6} md={6}>
               <Image className="weather-dashboard-img" src={weatherDashboard} onMouseOver={e => e.currentTarget.src = weatherDashboardGif} onMouseOut={e => e.currentTarget.src = weatherDashboard} alt="Weather Dashboard" rounded />
             </Col>
@@ -88,7 +88,7 @@ function Projects() {
             </Col>
           </Row>
           {/* Note Taker */}
-          <Row className="note-taker">
+          <Row className="note-taker colu">
             <Col xs={6} md={6}>
               <p className="desc title">Note Taker</p>
               <p className="desc"><b>Project Summary: </b>This application is used to write and save notes. Using an Express.js back end, this site will save and retrieve note data from a JSON file.</p>
@@ -100,7 +100,7 @@ function Projects() {
             </Col>
           </Row>
           {/* Code Quiz  */}
-          <Row className="code-quiz">
+          <Row className="code-quiz colu">
             <Col className="img-col" xs={6} md={6}>
               <Image className="code-quiz-img" src={codeQuiz} onMouseOver={e => e.currentTarget.src = codeQuizGif} onMouseOut={e => e.currentTarget.src = codeQuiz} alt="Code Quiz" rounded />
             </Col>

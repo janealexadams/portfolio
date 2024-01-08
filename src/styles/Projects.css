@@ -68,3 +68,21 @@
     transform: scale(1.1);
 }
 
+@media only screen and (max-width: 480px) {
+    .projects {
+      margin-top: 100px;
+      margin-bottom: 20px;
+    }
+    .colu {
+      display: flex;
+      flex-direction: column;
+    }
+    .tinywear-img, .moodie-img, .weather-dashboard-img, .code-quiz-img {
+      margin-bottom: 15px !important;
+      max-width: 100%;
+    }
+    .tech-blog-img, .ecomm-backend-img, .note-taker-img {
+        margin-top: 15px !important;
+        max-width: 100%;
+    }
+}
