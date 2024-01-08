@@ -67,7 +67,7 @@ function Projects() {
           <Row className="ecomm-backend">
             <Col xs={6} md={6}>
               <p className="desc title">E-Commerce Backend</p>
-              <p className="desc"><b>Project Summary: </b>This repository is a back end for an e-commerce site. Using a working Express.js API, it's configured to use Sequelize to interact with a MySQL2 database.</p>
+              <p className="desc"><b>Project Summary: </b>This project is a built out backend for an e-commerce site. Using a working Express.js API, it's configured to use Sequelize to interact with a MySQL2 database. Insomnia Core is used to retrieve routes for categories, products, and tags displayed in a formatted JSON.</p>
               <p className="desc"><b>Tools: </b>Express.js, MySQL2, Node.js, Sequelize, dotenv.</p>
               <Button variant="outline-light" id="project-button" href="https://github.com/janealexadams/e-commerce-back-end.git" target="_blank">GitHub Repo</Button> <Button variant="outline-light" id="project-button" href="https://drive.google.com/file/d/1PH3Mapn-m99lcbMTa05YOtLRnA0rlc87/view?usp=sharing" target="_blank">Walkthrough Video</Button>{' '}
             </Col>
