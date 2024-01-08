@@ -12,22 +12,20 @@ function Header() {
         <section id="about-me">
             <Container className="header">
                 <Row className="header text-center">
-                    <Col xs={6} md={6}>
-                        <p className="title">hello, i’m jane!</p>
-                        <p classname="blurb">i’m a full-stack web developer based in los angeles, ca. i have a passion for all things technology and design, and i enjoy creating applications that make a difference with a functional user experience.</p>
+                    <Col className="text slide-in-left" xs={6} md={6}>
+                        <p className="title ">Hello, I’m Jane!</p>
+                        <p classname="blurb">I’m a full-stack web developer based in Los Angeles, CA. I have a passion for all things technology and design - I enjoy creating applications that make a difference with a functional user experience.</p>
                     </Col>
                     <Col xs={6} md={6}>
-                        <Image className="portrait" src={portrait} alt="self portrait" roundedCircle />
+                        <Image className="portrait slide-in-right" src={portrait} alt="self portrait" roundedCircle />
                     </Col>
                 </Row>
             </Container>
         </section>
-
-
     );
-  }
+}
   
-  export default Header;
+export default Header;
 
 
   

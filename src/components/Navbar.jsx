@@ -2,28 +2,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
 import resume from '../assets/Resume.pdf';
 import '../styles/Navbar.css';
+import Navbar from 'react-bootstrap/Navbar';
 
-function Navbar() {
+function BasicExample() {
   return (
     <section className="header-section">
-      <h1 id="name">jane adams</h1>
-    <Nav id="navbar">
-    <Nav.Item>
-      <Nav.Link className="first" id="about-me-link" eventKey="link-1" href="#about-me">about me</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link className="second" id="projects-link" eventKey="link-2" href="#projects">portfolio</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link className="third" id="contact-link" eventKey="link-3" href="#contact" >contact</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-    <Nav.Link className="fourth" id="resume-link" eventKey="link-4" href={resume} target="_blank">resume</Nav.Link>
-    </Nav.Item>
-  </Nav>
+      <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar.Brand id="name" href="#home">Jane Adams</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="mobile" />
+          <Navbar.Collapse className=" " id="basic-navbar-nav">
+            <Nav className="" id="navbar">
+              <Nav.Link className="first" id="about-me-link" eventKey="link-1" href="#about-me">About Me</Nav.Link>
+              <Nav.Link className="second" id="projects-link" eventKey="link-2" href="#projects">Portfolio</Nav.Link>
+              <Nav.Link className="third" id="contact-link" eventKey="link-3" href="#contact" >Contact</Nav.Link>
+              <Nav.Link  className="fourth" id="resume-link" eventKey="link-4" href={resume} target="_blank">Resume</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+      </Navbar>
     </section>
   );
 }
 
-export default Navbar;
-
+export default BasicExample;

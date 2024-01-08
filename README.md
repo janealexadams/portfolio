@@ -1,8 +1,7 @@
 # Portfolio
 
 ## Description
-
-This website is a portfolio built using React.js, to share with fellow developers and potential employers my portfolio. 
+This website is a portfolio built using React, to share with fellow developers and potential employers my portfolio. 
 
 ## Contents
 - [Built With](#built-with)
@@ -23,4 +22,3 @@ If you have any questions about the repo, please contact me via email at janeale
 
 ## Credits
 Created by Jane Adams.
-

@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import { useState } from 'react';
 import '../styles/contact.css';
 
-// Importing a helper function that will check if the email is valid
+// Importing helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
 
 function Contact() {
@@ -32,7 +32,6 @@ function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-
       // First we check to see if the email is not valid. If so we set an error message to be displayed on the page.
       if (!validateEmail(email)) {
         setErrorMessage('Email is invalid');
@@ -48,52 +47,55 @@ function Contact() {
 
   return (
     <section>
-        <h1 id="contact" className="contact text-center">contact me ~</h1>
-        <div className="form d-flex justify-content-center">
-        <Form onSubmit={handleFormSubmit}>
+      <h1 id="contact" className="contact text-center">- Contact Me -</h1>
+        {/* <hr id="underline"></hr> */}
+      <div className="form d-flex justify-content-center">
+        {/* <Form onSubmit={handleFormSubmit}> */}
+        <form method='POST' action='https://getform.io/f/115f4c19-14da-47cf-8dae-0dd86f1db75e'>
           <div> 
-          <Row className="mb-3 w-100 p-3">
-            <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label>name</Form.Label>
-            <Form.Control 
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="name"
-             />
-            </Form.Group>
-            <Form.Group as={Col} controlId="formGridPassword">
-            <Form.Label>email</Form.Label>
-            <Form.Control 
-              value={email}
-              name="email"
+            <Row className="mb-3 w-100 p-3">
+              <Form.Group as={Col} controlId="formGridEmail">
+              <Form.Label>Name</Form.Label>
+              <Form.Control 
+              value={name}
+              name="name"
               onChange={handleInputChange}
               type="text"
-              placeholder="email"/>
+              // placeholder="Name"
+              />
+              </Form.Group>
+              <Form.Group as={Col} controlId="formGridPassword">
+              <Form.Label>Email</Form.Label>
+              <Form.Control 
+                value={email}
+                name="email"
+                onChange={handleInputChange}
+                type="text"
+                // placeholder="Email"
+                />
+              </Form.Group>
+            </Row>
+            <Form.Group className="mb-3 w-100 p-3" controlId="formGridAddress1">
+              <Form.Label>Message</Form.Label>
+              <Form.Control 
+                as="textarea" 
+                value={message}
+                name="message"
+                onChange={handleInputChange}
+                type="text"
+                // placeholder="Message"
+                />
             </Form.Group>
-        </Row>
-        <Form.Group className="mb-3 w-100 p-3" controlId="formGridAddress1">
-            <Form.Label>message</Form.Label>
-            <Form.Control 
-              as="textarea" 
-              value={message}
-              name="message"
-              onChange={handleInputChange}
-              type="text"
-              placeholder="message"/>
-        </Form.Group>
-
-        <Button variant="outline-light" id="contact-button" type="submit">
-            get in touch
-        </Button>
+            <Button variant="outline-light" id="contact-button" type="submit">
+              Submit
+            </Button>
           </div>
-    </Form>
-        </div>
+          {/* </Form> */}
+        </form>
+      </div>
     </section>
   );
 }
 
 export default Contact;
-
 

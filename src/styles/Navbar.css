@@ -1,19 +1,43 @@
+#about-me-link, #projects-link, #contact-link, #resume-link{
+    color: black;
+    transition: 0.2s all ease-in-out;
+}
+
 #about-me-link:hover, #projects-link:hover, #contact-link:hover, #resume-link:hover{
-    font-weight: bold;
-    color: black
+    color: black; 
+    transform: scale(1.1);
 }
 
 #name {
-    display: inline-block;
-    margin-left: 20px;
+    display: inline;
     font-size: 30px;
+    font-weight: 500;
+    margin-left: 40px;
 }
 
 #navbar {
     float: right;
     color: black;
+    text-align: center;
 }
 
 .first, .second, .third, .fourth {
     color: black;
+    margin-left: 10px;
+}
+
+.light-mode {
+    background-color: #000000 !important;
+    color: white;
+}
+
+#basic-navbar-nav { 
+    justify-content: end !important;
+    margin-right: 40px;
+}
+
+
+.mobile {
+    border: none;
+    outline: none;
 }

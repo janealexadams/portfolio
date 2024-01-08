@@ -1,11 +1,30 @@
 .projects {
     margin-top: 275px;
-    margin-bottom: 50px;
     font-size: 30px;
+    font-weight: 500;
 }
 
-.moodie, .tech-blog, .weather-dashboard, .code-quiz, .note-taker {
-    margin-top: 20px;
+#underline {
+    width: 500px;
+    border-top: 1px solid black !important;
+    opacity: 1 !important;
+    margin-bottom: 80px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.moodie, .ecomm-backend, .tech-blog, .weather-dashboard, .code-quiz, .note-taker {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.tinywear {
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center
@@ -15,44 +34,43 @@
     transform: scale(1.1);
 }
 
-.moodie-img {
+.moodie-img, .tinywear-img, .tech-blog-img .ecomm-backend-img, .weather-dashboard-img, .note-taker-img, .code-quiz-img {
     max-width: 80%;
     height: auto;
     transition: 0.2s all ease-in-out;
-}
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+
 
 .tech-blog-img {
     max-width: 80%;
     height: auto;
     transition: 0.2s all ease-in-out;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.weather-dashboard-img {
+.ecomm-backend-img {
     max-width: 80%;
     height: auto;
     transition: 0.2s all ease-in-out;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.note-taker-img {
-    max-width: 80%;
-    height: auto;
-    transition: 0.2s all ease-in-out;
-}
-
-.code-quiz-img {
-    max-width: 80%;
-    height: auto;
-    transition: 0.2s all ease-in-out;
+.weather-dashboard-img:hover, .note-taker-img:hover, .code-quiz-img:hover, .tech-blog-img:hover, .tinywear-img:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 #project-button {
     background-color: rgb(0, 0, 0);
     color: #F5F5EF;;
+    transition: 0.2s all ease-in-out;
 }
 
 #project-button:hover {
-    font-weight: bold;
-    background-color: #F5F5EF;
-    color: black;
+    transform: scale(1.1);
 }
-

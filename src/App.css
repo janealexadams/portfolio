@@ -1,9 +1,9 @@
-#root {
-  padding: 20px;
-  background-color: #F5F5EF;
-}
-
 /* * {
   outline: 1px dotted blue;
 } */
+
+body {
+  padding: 20px;
+  background-color: #F5F5EF;
+}
 
