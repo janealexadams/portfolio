@@ -19,7 +19,7 @@ function Footer() {
             </section>
             <div id="closing">
                 <br id="br"></br>
-                <a href='janealexadams@gmail.com' id="email">janealexadams@gmail.com</a>
+                <a href='mailto:janealexadams@gmail.com' id="email">janealexadams@gmail.com</a>
                 <h1 id="closing">Created by Jane Adams 2023</h1>
             </div>
         </div>
