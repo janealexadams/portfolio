@@ -25,6 +25,24 @@
     margin-right: 25px;
 }
 
+@media only screen and (max-width: 480px) {
+    .bg-body-tertiary {
+        margin-right: 0px !important;
+      }
+    #name {
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-body-tertiary {
+        margin-right: 0px !important;
+      }
+    #name {
+        margin-left: 0px !important;
+    }
+}
+
 .first, .second, .third, .fourth {
     color: black;
     margin-left: 10px;
@@ -41,6 +59,7 @@
 
 .navbar-toggler {
     color: transparent !important;
+    padding: 0 !important;
 }
 
 .navbar-toggler-icon {
