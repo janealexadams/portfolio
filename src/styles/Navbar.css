@@ -12,13 +12,17 @@
     display: inline;
     font-size: 30px;
     font-weight: 500;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 #navbar {
     float: right;
     color: black;
     text-align: center;
+}
+
+.bg-body-tertiary {
+    margin-right: 25px;
 }
 
 .first, .second, .third, .fourth {
