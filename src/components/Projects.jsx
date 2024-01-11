@@ -33,18 +33,18 @@ function Projects() {
               <Image className="tinywear-img" src={Tinywear} onMouseOver={e => e.currentTarget.src = TinywearGif} onMouseOut={e => e.currentTarget.src = Tinywear} alt="Tinywear" rounded/>
             </Col>
             <Col xs={6} md={6}>
-              <p className="desc title">TinyWear</p>
-              <p className="desc"><b>Project Summary: </b>This application is an interactive MERN stack multi-page ecommerce platform for toddler clothing, called Tinywear. With a focus on data and user demand, users are able to filter through category products (shirts, pants, sets) and checkout using Stripe's payment platform integration.</p>
+              <p className="desc title">Interactive MERN Stack Application: TinyWear</p>
+              <p className="desc"><b>Project Summary: </b>An interactive MERN stack multi-page ecommerce platform for toddler clothing with a responsive user interface. With a focus on data and user demand, users are prompted to sign in, filter through category products (shirts, pants, sets), and checkout using Stripe's payment platform integration.</p>
               <p className="desc"><b>Tools: </b>React, GraphQL API, MongoDB and the Mongoose ODM for the database, Node.js, Express.js, Authentication (JWT), Tailwind CSS, Stripe payment platform, Bcrypt, CSS.</p>
-              <Button variant="outline-light" id="project-button" href="https://github.com/janealexadams/ecomm-website.git" target="_blank">GitHub Repo</Button> <Button variant="outline-light" id="project-button" href="https://boiling-headland-88153-b07abae91420.herokuapp.com/" target="_blank">Deployed Site</Button>{' '}
+              <Button variant="outline-light" id="project-button" href="https://github.com/janealexadams/ecomm-website.git" target="_blank">GitHub Repo</Button> <Button variant="outline-light" id="project-button" href="https://shrouded-depths-10067-a13be7bb300f.herokuapp.com/" target="_blank">Deployed Site</Button>{' '}
             </Col>
           </Row>
           {/* Tech Blog */}
           <Row className="tech-blog colu">
             <Col xs={6} md={6}>
-              <p className="desc title">Tech Blog</p>
-              <p className="desc"><b>Project Summary: </b>This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developer's posts. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.</p>
-              <p className="desc"><b>Tools: </b>MySQL2, Express.js, Sequelize, Handlebars.js, JavaScript, CSS.</p>
+              <p className="desc title">Interactive Full-Stack Project: Tech Blog</p>
+              <p className="desc"><b>Project Summary: </b>A CMS-style blog site where developers can publish their blog posts and comment on other developer's posts. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, Node.js and Express.js to create a RESTful API, GET and POST routes for retrieving and adding new data, and the express-session npm package for authentication.</p>
+              <p className="desc"><b>Tools: </b>MySQL2, Express.js, Sequelize, Node,js, Handlebars.js, JavaScript, CSS.</p>
               <Button variant="outline-light" id="project-button" href="https://github.com/janealexadams/tech-blog.git" target="_blank">GitHub Repo</Button> <Button variant="outline-light" id="project-button" href="https://dreadful-dungeon-10044-849ba164dcc5.herokuapp.com/" target="_blank">Deployed Site</Button>{' '}
             </Col>
             <Col className="img-col" xs={6} md={6}>
@@ -57,8 +57,8 @@ function Projects() {
               <Image className="moodie-img " src={moodie} onMouseOver={e => e.currentTarget.src = moodieGif} onMouseOut={e => e.currentTarget.src = moodie} alt="Moodie" rounded />
             </Col>
             <Col xs={6} md={6}>
-              <p className="desc title">Moodie</p>
-              <p className="desc"><b>Project Summary: </b>Dinner and movie ideas are generated for the perfect night in. Third-party APIs are used to suggest movie titles based off of the user's response along with a dinner recipe.</p>
+              <p className="desc title">Interactive Front-End Project: Moodie</p>
+              <p className="desc"><b>Project Summary: </b>An interactive front-end application where dinner and movie ideas are generated for a perfect night in. Third-party APIs are used to suggest movie titles based off of the user's response along with a dinner recipe, and client-side storage is used to store persistent data.</p>
               <p className="desc"><b>Tools: </b>JavaScript, jQuery, Yummly API, OTT Details API, Bulma CSS Framework, HTML, CSS, Google Fonts.</p>
               <Button variant="outline-light" id="project-button" href="https://github.com/BrianPizz/caseCamels-Moodie.git" target="_blank">GitHub Repo</Button> <Button variant="outline-light" id="project-button" href="https://brianpizz.github.io/caseCamels-Moodie/" target="_blank">Deployed Site</Button>{' '}
             </Col>
@@ -66,9 +66,9 @@ function Projects() {
           {/* E-comm Backend */}
           <Row className="ecomm-backend colu">
             <Col xs={6} md={6}>
-              <p className="desc title">E-Commerce Backend</p>
-              <p className="desc"><b>Project Summary: </b>This project is a built out backend for an e-commerce site. Using a working Express.js API, it's configured to use Sequelize to interact with a MySQL2 database. Insomnia Core is used to retrieve routes for categories, products, and tags displayed in a formatted JSON.</p>
-              <p className="desc"><b>Tools: </b>Express.js, MySQL2, Node.js, Sequelize, dotenv.</p>
+              <p className="desc title">E-Commerce Back-End</p>
+              <p className="desc"><b>Project Summary: </b>A built out back-end for an e-commerce site. Using a working Express.js API, it's configured to use Sequelize to interact with a MySQL2 database. Insomnia Core is used to retrieve routes for categories, products, and tags displayed in a formatted JSON. Routes will perform create, read, update, and delete operations using the Sequelize models to perform RESTful CRUD Operations.</p>
+              <p className="desc"><b>Tools: </b>Express.js, MySQL2, Node.js, Sequelize, Insomnia, dotenv.</p>
               <Button variant="outline-light" id="project-button" href="https://github.com/janealexadams/e-commerce-back-end.git" target="_blank">GitHub Repo</Button> <Button variant="outline-light" id="project-button" href="https://drive.google.com/file/d/1PH3Mapn-m99lcbMTa05YOtLRnA0rlc87/view?usp=sharing" target="_blank">Walkthrough Video</Button>{' '}
             </Col>
             <Col className="img-col" xs={6} md={6}>
@@ -83,7 +83,7 @@ function Projects() {
             <Col xs={6} md={6}>
               <p className="desc title">Weather Dashboard</p>
               <p className="desc"><b>Project Summary: </b>This application retrieves weather data from a 5 Day Weather Forecast API. Recent search results are stored in local storage and are accessible to the user.</p>
-              <p className="desc"><b>Tools: </b>JavaScript, 5 day weather forecast API, Bootstrap Framework, CSS, HTML.</p>
+              <p className="desc"><b>Tools: </b>JavaScript, 5 Day Weather Forecast API, Bootstrap CSS Framework, CSS, HTML.</p>
               <Button variant="outline-light" id="project-button" href="https://github.com/janealexadams/weather-dashboard.git" target="_blank">GitHub Repo</Button> <Button variant="outline-light" id="project-button" href="https://janealexadams.github.io/weather-dashboard/" target="_blank">Deployed Site</Button>{' '}
             </Col>
           </Row>
@@ -91,7 +91,7 @@ function Projects() {
           <Row className="note-taker colu">
             <Col xs={6} md={6}>
               <p className="desc title">Note Taker</p>
-              <p className="desc"><b>Project Summary: </b>This application is used to write and save notes. Using an Express.js back end, this site will save and retrieve note data from a JSON file.</p>
+              <p className="desc"><b>Project Summary: </b>This application is used to write and save notes. Using an Express.js back-end, this site will save and retrieve note data from a JSON file using API routes. </p>
               <p className="desc"><b>Tools: </b>Express.js, JavaScript, CSS, HTML.</p>
               <Button variant="outline-light" id="project-button" href="https://github.com/janealexadams/note-taker.git" target="_blank">GitHub Repo</Button> <Button variant="outline-light" id="project-button" href="https://fast-stream-88512-4a2f772d1858.herokuapp.com" target="_blank">Deployed Site</Button>{' '}
             </Col>

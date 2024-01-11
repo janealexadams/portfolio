@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
-import resume from '../assets/Resume.pdf';
+import resume from '../assets/Jane-Adams-Resume.pdf';
 import '../styles/Navbar.css';
 import Navbar from 'react-bootstrap/Navbar';
 
